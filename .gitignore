@@ -1,4 +1,36 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Environment Variables
 .env
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Logs
+*.log
+
+# Runtime Data
 study_history.json
+
+# Streamlit
+.streamlit/secrets.toml

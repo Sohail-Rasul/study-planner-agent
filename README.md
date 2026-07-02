@@ -283,6 +283,25 @@ python -m unittest discover -s tests -p "test_*.py"
 - Adaptive scheduling using user performance
 
 ---
+# Architecture Overview
+
+The Smart Study Planner Agent follows a modular agent architecture built around the Google Agent Development Kit (ADK). The system separates user interaction, business logic, reusable skills, memory, and external tools into independent components, making the application easier to maintain and extend.
+
+The Streamlit frontend provides an intuitive interface where users enter their subjects, exam dates, and available study hours. These requests are sent to a FastAPI backend, which validates the input before forwarding it to the main StudyPlannerAgent.
+
+The StudyPlannerAgent serves as the orchestration layer of the application. Rather than performing every task itself, it delegates work to specialized skills:
+
+StudySkill generates Pomodoro-based study sessions.
+CalendarSkill distributes study sessions across the available days before each exam.
+MemorySkill stores previous study plans and completed study sessions to preserve context during runtime.
+MCP Tool Layer exposes reusable planning utilities and demonstrates Model Context Protocol integration.
+
+After collecting results from each component, the planner combines them into a structured study plan, which is returned through FastAPI and displayed in the Streamlit interface.
+
+This modular architecture allows new skills and tools to be added with minimal changes to the core planner, making the system scalable and easy to extend.
+
+
+--- 
 
 # Course Concepts Demonstrated
 
