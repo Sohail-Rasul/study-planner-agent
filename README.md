@@ -1,4 +1,4 @@
-# 🎓 Smart Study Planner Agent
+# Smart Study Planner Agent
 
 > An AI-powered study planning assistant built with **Google Agent Development Kit (ADK)**, **FastAPI**, **Streamlit**, and **MCP** to help students generate personalized study schedules, manage progress, and improve exam preparation.
 
@@ -11,7 +11,7 @@
 
 ---
 
-# 📖 Overview
+# Overview
 
 Preparing for multiple exams often requires balancing limited study time across several subjects while ensuring high-priority exams receive sufficient attention.
 
@@ -30,7 +30,7 @@ This project demonstrates modern AI agent engineering concepts including:
 
 ---
 
-# 🚀 Features
+# Features
 
 ## AI Study Planner
 
@@ -100,7 +100,7 @@ Implements the main planner as a Google ADK Agent while integrating reusable pla
 
 ---
 
-# 🏗 Architecture
+# Architecture
 
 ```text
                  Streamlit Frontend
@@ -120,7 +120,7 @@ Implements the main planner as a Google ADK Agent while integrating reusable pla
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```text
 study-planner-agent/
@@ -151,7 +151,7 @@ study-planner-agent/
 
 ---
 
-# ⚙️ Technology Stack
+# Technology Stack
 
 ### Backend
 
@@ -181,7 +181,7 @@ study-planner-agent/
 
 ---
 
-# 🔄 Application Workflow
+# Application Workflow
 
 1. User enters study information.
 2. Planner Agent validates inputs.
@@ -194,7 +194,7 @@ study-planner-agent/
 
 ---
 
-# 📡 API Endpoints
+# API Endpoints
 
 | Method | Endpoint | Description |
 |---------|----------|-------------|
@@ -207,7 +207,7 @@ study-planner-agent/
 
 ---
 
-# 🖥 Running the Project
+# Running the Project
 
 ## Clone Repository
 
@@ -248,33 +248,7 @@ streamlit run frontend/app.py
 
 ---
 
-# 📷 Screenshots
-
-## Streamlit Dashboard
-
-*(Insert Screenshot)*
-
----
-
-## Generated Study Plan
-
-*(Insert Screenshot)*
-
----
-
-## FastAPI Swagger
-
-*(Insert Screenshot)*
-
----
-
-## Study History
-
-*(Insert Screenshot)*
-
----
-
-# 🔒 Security
+# Security
 
 The application includes:
 
@@ -288,7 +262,7 @@ No API keys are stored inside the repository.
 
 ---
 
-# 🧪 Testing
+# Testing
 
 Run all tests using:
 
@@ -298,7 +272,7 @@ python -m unittest discover -s tests -p "test_*.py"
 
 ---
 
-# 📈 Future Improvements
+# Future Improvements
 
 - Google Calendar integration
 - Email reminders
@@ -310,25 +284,25 @@ python -m unittest discover -s tests -p "test_*.py"
 
 ---
 
-# 📚 Course Concepts Demonstrated
+# Course Concepts Demonstrated
 
-✅ Google ADK
+ Google ADK
 
-✅ Agent Skills
+ Agent Skills
 
-✅ MCP
+ MCP
 
-✅ FastAPI
+ FastAPI
 
-✅ Streamlit
+ Streamlit
 
-✅ Memory
+ Memory
 
-✅ Modular Agent Architecture
+ Modular Agent Architecture
 
 ---
 
-# 🙏 Acknowledgements
+# Acknowledgements
 
 Built as part of the
 
@@ -338,6 +312,6 @@ Hosted on Kaggle.
 
 ---
 
-# 📄 License
+# License
 
 This project is licensed under the MIT License.
